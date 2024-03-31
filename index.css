@@ -1,0 +1,92 @@
+ /*
+        全局样式body设置网页背景
+        容器
+        盒子
+        照片
+
+        */
+        body {
+            background-color: rgb(230, 230, 230);
+        }
+        #container
+        {
+            position: absolute;
+            left: 10px;
+            right: 10px;
+        }
+
+        #box {
+            width: 210mm;
+            height: 297mm;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            position: absolute;
+            left: 25%;
+            box-shadow: 5px 5px 5px 5px grey;
+        }
+
+        #avatar {
+            position: absolute;
+            right: 15px;
+            top: 10px;
+            width: 150px;
+            height: 190px;
+        }
+        /* 分割线 */
+        #label {        
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        /* 姓名 */
+        #name {
+            font-size: 46px;
+            font-family: 'Times New Roman', Times, serif;
+            letter-spacing: 5px;
+            position: absolute;
+            top: 10px;
+            left: 250px;
+        }
+        
+        #introductionlist {
+            position: relative;
+            top: 150px;
+        }
+
+        #introductionlist li {
+            list-style-type: disc;
+            float: left;
+            margin: 10px;
+        }
+
+        #label #edu {
+            position: relative;
+            top: 140px;
+        }
+
+        #edutime {
+            position: relative;
+            top: 140px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #edutime table {
+            border-collapse: separate;
+            border-spacing: 5px 25px;
+
+        }
+
+        #publications {
+            position: relative;
+            top: 150px;
+        }
+
+        #textcolor {
+            color: blue;
+            font-weight: bold;
+        }
+        /* 清除浮动,勿动，本处后期需要修改 */
+        #clear {
+            clear: both;
+        }
